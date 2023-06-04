@@ -10,8 +10,7 @@ export default function UserCard({
   personal_email,
   linkedIn,
   experience,
-  education,
-  ...rest
+  education
 }: User) {
   return (
     <div className="w-full p-2 md:w-full lg:w-1/2 xl:w-1/3">
